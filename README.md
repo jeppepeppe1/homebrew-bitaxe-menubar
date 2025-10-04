@@ -23,7 +23,7 @@ After installation:
 
 ```bash
 # Configure your BitAxe IP
-bitaxe-config 192.168.1.100
+bitaxe-config <YOUR_BITAXE_IP>
 
 # Run the app
 bitaxe-menubar
