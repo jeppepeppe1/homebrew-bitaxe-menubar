@@ -3,7 +3,7 @@ class BitaxeMenubar < Formula
   homepage "https://github.com/jeppepeppe1/BitAxe-MenuBar"
   url "https://github.com/jeppepeppe1/BitAxe-MenuBar/archive/refs/heads/main.zip"
   version "1.0.1"
-  sha256 "e168c1eaccd0a79b4e6cfa4337780bf9a3d2ef8f6e5ac231fcb483c342bfa0d9"
+  sha256 "ae14fac857503a040ad4a715eac8927e7d439fff1ee8fd64d131914bcfe658f5"
 
   depends_on "swift" => :build
   depends_on "terminal-notifier"
