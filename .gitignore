@@ -1,0 +1,3 @@
+# Homebrew tap specific ignores
+*.rb.bak
+*.rb.orig
