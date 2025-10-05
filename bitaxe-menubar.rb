@@ -1,9 +1,9 @@
 class BitaxeMenubar < Formula
   desc "BitAxe MenuBar - Simple Bitaxe miner status bar app"
   homepage "https://github.com/jeppepeppe1/BitAxe-MenuBar"
-  url "https://github.com/jeppepeppe1/BitAxe-MenuBar/archive/refs/tags/v1.0.3.tar.gz"
-  version "1.0.3"
-  sha256 "42ed154272f78d899c26fe871fe0c8fda913281b779ed9eaab88f166667c10a9"
+  url "https://github.com/jeppepeppe1/BitAxe-MenuBar/archive/refs/tags/v1.0.4.tar.gz"
+  version "1.0.4"
+  sha256 "9df448d12283d7af541bdefff03c81173e2074f00616578638bbfe6c3d331649"
 
   depends_on "swift" => :build
   depends_on "terminal-notifier"
