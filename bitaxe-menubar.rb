@@ -12,12 +12,6 @@ class BitaxeMenubar < Formula
     system "swift", "build", "--configuration", "release", "--disable-sandbox"
     bin.install ".build/release/bitaxe-menubar"
     
-    # Install resources
-    resources_dir = prefix/"Resources"
-    resources_dir.mkpath
-    resources_dir.install "Sources/BitAxeMenuBar/Resources/bitaxe-logo-square.png"
-    resources_dir.install "Sources/BitAxeMenuBar/Resources/bitaxe-logo.png"
-    
     # Create configuration script
     (bin/"bitaxe-config").write <<~EOS
       #!/bin/bash
